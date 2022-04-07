@@ -1,0 +1,89 @@
+@media screen and (min-width: 320px) and (max-width: 424px) {
+	[class*="navbar-expand-"] > .container, [class*="navbar-expand-"] > .container-fluid {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}	
+	.img-logo-res {
+		width: 320px !important;
+	}
+	.navbar .navbar-toggler {
+		display: none !important;
+	}	
+	.breadcrumb {
+		display : none;
+	}
+	.card-body {
+		margin-top: 0px !important;
+	}
+	.container-fluid {
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+	}
+	.card-collapse .card-header {
+		padding: 15px 5px 20px 5px !important;
+	}
+	.card .card-plain {
+		width: 100% !important;
+	}
+	.card {
+		margin-bottom: 0px !important;
+	}
+	table.dataTable.dtr-inline.collapsed > tbody > tr > td.child, table.dataTable.dtr-inline.collapsed > tbody > tr > th.child, table.dataTable.dtr-inline.collapsed > tbody > tr > td.dataTables_empty {
+		padding-left: 5px !important;
+	}
+	.btn-res {
+		padding: 5px 10px  !important;
+	}
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	[class*="navbar-expand-"] > .container, [class*="navbar-expand-"] > .container-fluid {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}	
+	.navbar .navbar-toggler {
+		display: none !important;
+	}	
+	.breadcrumb {
+		display : none;
+	}	
+	.card-body {
+		margin-top: 0px !important;
+	}
+	.container-fluid {
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+	}
+	.card-collapse .card-header {
+		padding: 15px 5px 20px 5px !important;
+	}	
+	.card .card-plain {
+		width: 100% !important;
+	}	
+	.card {
+		margin-bottom: 0px !important;
+	}	
+	table.dataTable.dtr-inline.collapsed > tbody > tr > td.child, table.dataTable.dtr-inline.collapsed > tbody > tr > th.child, table.dataTable.dtr-inline.collapsed > tbody > tr > td.dataTables_empty {
+		padding-left: 5px !important;
+	}
+	.btn-res {
+		padding: 5px 10px !important;
+	}	
+}
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+	.navbar .navbar-toggler {
+		display: none !important;
+	}	
+	.card .card-plain {
+		width: 100% !important;
+	}
+    .btn {
+		padding: 12px 10px !important;
+		font-size: 14px  !important;
+	}
+	.btn-res {
+		padding: 5px 10px !important;
+	}	
+	
+}

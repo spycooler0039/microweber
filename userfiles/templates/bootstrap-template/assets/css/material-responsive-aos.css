@@ -1,0 +1,593 @@
+/*
+ =========================================================
+ @Material responsive - v 1.0
+ @Create Patiya 
+ @Date 06-08-2563
+ =========================================================
+*/
+
+/* ขนาดหน้าจอระหว่าง 320 - 424 คือขนาดหน้าจอของโทรศัพท์ iphone */
+@media screen and (min-width: 200px) and (max-width: 424px) {
+	
+	h4, .h4 {
+		font-size: 16px;
+	}	
+	.card-collapse .card-header a {
+		font-size: 16px;
+	}	
+	.card {
+		font-size: 16px;
+	}
+	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	.card [class*="card-header-"] .card-icon, .card [class*="card-header-"] .card-text	{
+		padding: 10px;
+	}
+	.form-check, label {
+		font-size: 16px;
+		line-height: 1;
+		color: #333;
+	}
+	.form-control {
+		font-size: 16px;
+	}	
+	div.dataTables_wrapper div.dataTables_filter input	{
+		width: 80%;
+	}
+	.btn {
+		font-size: 16px;
+	}	
+	.btn .material-icons, .btn:not(.btn-just-icon):not(.btn-fab) .fa{
+		font-size: 20px;
+	}
+	.form-control:-ms-input-placeholder {
+		font-size: 16px;
+	}
+
+	.form-control::-webkit-input-placeholder {
+		font-size: 16px;
+	}	
+	.table.dataTable {
+		font-size: 16px;
+	}
+	.table thead tr th {
+		font-size: 16px;
+		vertical-align: top;
+	}
+	.dataTable>thead>tr>th, .dataTable>tbody>tr>th, .dataTable>tfoot>tr>th, .dataTable>thead>tr>td, .dataTable>tbody>tr>td, .dataTable>tfoot>tr>td {
+		padding: 7px 5px !important;	
+	}
+	div.dataTables_wrapper div.dataTables_info {
+		font-size: 14px;
+	}	
+	.material-datatables .dataTables_paginate .pagination .paginate_button .page-link {
+		font-size: 14px;
+	}
+	div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+		justify-content: left;
+	}	
+	div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate {
+		text-align: left;
+	}		
+	
+	
+	/* System ac v_home_admin start*/
+	.res-ac-ha-panel-1-1 {
+		margin-top: 0px !important;
+	}	
+		
+	.res-ac-ha-panel-1-2 {
+		font-size: 16px !important;
+		padding: 25px 0px !important;
+	}
+	.form-control::-moz-placeholder {
+		font-size: 16px;
+	}
+
+	/* System ac v_home_admin end*/
+	
+	/* header.php Patiya 2563/11/02 */
+	.main-panel>.content {
+		padding: 20px 0px;
+	}
+	.rps-h {
+		height:46px;
+	}
+	/* end header.php Patiya 2563/11/02*/
+	
+	/* v_bps3.php Patiya 2563/11/02 */
+	
+	.rps-mt--30 {
+		margin-top: -30px !important;
+	}
+	.rps-f-12 {
+		font-size: 12px !important;
+	}
+	.icons_near_me {
+		font-size: 20px !important;
+	}
+	.dashboard-category-h4 {
+		float: right;
+		font-size: 26px !important;		
+	}
+	.rps-card-icon {
+		padding: 0px !important;
+		margin-right: 0px !important;
+	}	
+	.rps-mb-50 {
+		margin-bottom: 50px;
+	}
+	.rps-mb-80 {
+		margin-bottom: 80px;
+	}
+	.rps-p-0 {
+		padding: 0px 0px !important;
+	}
+	.highcharts-root text {
+		font-size: 14px !important;
+	}	
+	tspan {
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.rps-nav {
+		padding: 0px 0px !important;
+	}
+	.rps-link {
+		line-height: 10px !important;
+		font-size: 16px !important;		
+	}
+	.rps-item {
+		width: 100%;
+		margin-left :0px !important;
+		margin-top: 5px;
+	}
+	/* .modal-backdrop.show { */
+		/* z-index: -1; */
+	/* } */
+	.res-welcome {
+		font-size: 16px !important;
+		text-align: center !important;
+		padding: 15px 30px !important;
+	}
+	/* end v_bps3.php Patiya 2563/11/02*/
+
+
+
+
+}
+
+/* ขนาดหน้าจอระหว่าง 425 - 767 คือขนาดหน้าจอของโทรศัพท์ iphonex - samsung Note - ipad */
+@media screen and (min-width: 425px) and (max-width: 767px) {
+	h4, .h4 {
+		font-size: 16px;
+	}	
+	.card-collapse .card-header a {
+		font-size: 16px;
+	}
+	.card {
+		font-size: 16px;
+	}	
+	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+		padding-right: 10px;
+		padding-left: 10px;
+	}	
+	.card [class*="card-header-"] .card-icon, .card [class*="card-header-"] .card-text	{
+		padding: 10px;
+	}
+	.form-check, label {
+		font-size: 16px;
+		line-height: 1;
+		color: #333;
+	}	
+	.form-control {
+		font-size: 16px;
+	}
+	div.dataTables_wrapper div.dataTables_filter input	{
+		width: 80%;
+	}
+	.btn {
+		font-size: 16px;
+	}
+	.btn .material-icons, .btn:not(.btn-just-icon):not(.btn-fab) .fa{
+		font-size: 20px;
+	}
+	.form-control::-moz-placeholder {
+		font-size: 16px;
+	}
+
+	.form-control:-ms-input-placeholder {
+		font-size: 16px;
+	}
+
+	.form-control::-webkit-input-placeholder {
+		font-size: 16px;
+	}	
+	.table.dataTable {
+		font-size: 16px;
+	}
+	.table thead tr th {
+		font-size: 16px;
+		vertical-align: top;
+	}
+	.dataTable>thead>tr>th, .dataTable>tbody>tr>th, .dataTable>tfoot>tr>th, .dataTable>thead>tr>td, .dataTable>tbody>tr>td, .dataTable>tfoot>tr>td {
+		padding: 7px 5px !important;	
+	}
+	div.dataTables_wrapper div.dataTables_info {
+		font-size: 16px;
+	}	
+	.material-datatables .dataTables_paginate .pagination .paginate_button .page-link {
+		font-size: 16px;
+	}
+	div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+		justify-content: left;
+	}	
+	div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate {
+		text-align: left;
+	}		
+	
+	/* header.php Patiya 2563/11/02 */
+	.main-panel>.content {
+		padding: 20px 0px;
+	}	
+	.rps-h {
+		height:58px;
+	}	
+	/* end header.php Patiya 2563/11/02*/
+	
+	/* v_bps3.php Patiya 2563/11/02 */
+	
+	.rps-mt--30 {
+		margin-top: -20px !important;
+	}
+	.rps-f-12 {
+		font-size: 16px !important;
+	}	
+	.dashboard-category-h4 {
+		float: right;
+		font-size: 26px !important;		
+	}	
+	.rps-card-icon {
+		padding: 5px;
+		margin-right: 0px;
+	}
+	.rps-mb-50 {
+		margin-bottom: 50px;
+	}
+	.rps-mb-80 {
+		margin-bottom: 80px;
+	}	
+	.rps-p-0 {
+		padding: 0px 0px !important;
+	}
+	.highcharts-root text {
+		font-size: 14px !important;
+	}
+	tspan {
+		font-size: 14px;
+		font-weight: 500;
+	}
+	.rps-nav {
+		padding: 0px 0px;
+	}
+	.rps-link {
+		line-height: 10px;
+		font-size: 16px;		
+	}	
+	.rps-item {
+		width: 100%;
+		margin-left :0px !important;	
+		margin-top: 5px;
+	}			
+	/* end v_bps3.php Patiya 2563/11/02*/	
+	/* .modal-backdrop.show { */
+		/* z-index: -1; */
+	/* }	 */
+	.res-welcome {
+		font-size: 18px !important;
+		text-align: center !important;
+		padding: 15px 40px !important;
+	}	
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .bd-example {
+    font-size: 16px !important;
+  }
+  .res-card-wizard {
+    margin-top: 15px !important;
+  }
+  .res-nav-link {
+    color: #FFF !important;
+    padding: 10px 10px !important;
+    font-size: 16px !important;
+  }
+  .card-wizard .nav.nav-pills .nav-item .nav-link {
+    padding: 10px 10px !important;
+  }
+  .mt-15 {
+    margin-top: 15px !important;
+  }
+}
+@media screen and (min-width: 1367px) {
+  .res-nav-link {
+    color: #FFF !important;
+    padding: 10px 15px !important;
+    font-size: 25px !important;
+  }
+  .mt-15 {
+    margin-top: 15px !important;
+  }
+}
+/* ขนาดหน้าจอระหว่าง 768 - 1024 คือขนาดหน้าจอของโทรศัพท์  ipad pro - Laptop */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+	
+	h4, .h4 {
+		font-size: 16px;
+	}	
+	.card-collapse .card-header a {
+		font-size: 16px;
+	}	
+	.card {
+		font-size: 16px;
+	}
+	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+		padding-right: 10px;
+		padding-left: 10px;
+	}	
+	.card [class*="card-header-"] .card-icon, .card [class*="card-header-"] .card-text	{
+		padding: 10px;
+	}
+	.card-stats .card-header.card-header-icon i {
+		font-size: 30px;
+		line-height: 40px;
+		width: 40px;
+		height: 40px;
+		text-align: center;		
+	}
+	.form-check, label {
+		font-size: 16px;
+		line-height: 1;
+		color: #333;
+	}	
+	.form-control {
+		font-size: 16px;
+	}
+	div.dataTables_wrapper div.dataTables_filter input	{
+		width: 80%;
+	}
+	.btn {
+		font-size: 16px;
+	}
+	.btn .material-icons, .btn:not(.btn-just-icon):not(.btn-fab) .fa{
+		font-size: 24px;
+	}
+	.dashboard-card-icon {
+		margin-bottom: 0px;
+	}	
+	.form-control::-moz-placeholder {
+		font-size: 16px;
+	}
+
+	.form-control:-ms-input-placeholder {
+		font-size: 16px;
+	}
+
+	.form-control::-webkit-input-placeholder {
+		font-size: 16px;
+	}	
+	.table.dataTable {
+		font-size: 16px;
+	}
+	.table thead tr th {
+		font-size: 16px;
+		vertical-align: top;
+	}
+	.dataTable>thead>tr>th, .dataTable>tbody>tr>th, .dataTable>tfoot>tr>th, .dataTable>thead>tr>td, .dataTable>tbody>tr>td, .dataTable>tfoot>tr>td {
+		padding: 7px 5px !important;	
+	}
+	div.dataTables_wrapper div.dataTables_info {
+		font-size: 16px;
+	}	
+	.material-datatables .dataTables_paginate .pagination .paginate_button .page-link {
+		font-size: 16px;
+	}
+
+		
+	
+	/* header.php Patiya 2563/11/02 */
+	.main-panel>.content {
+		padding: 20px 0px;
+	}	
+	.rps-h {
+		height:58px;
+	}	
+	/* end header.php Patiya 2563/11/02*/
+	
+	/* v_bps3.php Patiya 2563/11/02 */
+	
+	.rps-mt--30 {
+		margin-top: -20px !important;
+	}
+	.rps-f-12 {
+		font-size: 16px !important;
+		display: inline !important;
+	}
+	.dashboard-category-h4 {
+		float: right;
+		font-size: 26px !important;		
+	}	
+	.rps-card-icon {
+		padding: 5px;
+		margin-right: 0px;
+	}
+	.rps-mb-50 {
+		margin-bottom: 50px;
+	}
+	
+	.highcharts-root text {
+		font-size: 16px !important;
+	}
+	tspan {
+		font-size: 16px;
+		font-weight: 500;
+	}
+	.rps-nav {
+		padding: 4px 0px;
+	}
+	.rps-link {
+		line-height: 10px;
+		font-size: 16px !important;		
+	}	
+	/* .modal-backdrop.show { */
+		/* z-index: -1; */
+	/* }	 */
+	.res-welcome {
+		font-size: 24px !important;
+		text-align: center !important;
+		padding: 30px 15px !important;
+	}		
+  
+	@media screen and (min-width: 1024px) and (max-width: 1024px) {
+		.rps-f-12 {
+			text-align:right;
+		}
+	}
+	/* end v_bps3.php Patiya 2563/11/02*/	
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+	h4, .h4 {
+		font-size: 18px;
+	}	
+	.card-collapse .card-header a {
+		font-size: 20px;
+	}	
+	.card {
+		font-size: 16px;
+	}
+	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+		padding-right: 10px;
+		padding-left: 10px;
+	}	
+	.card [class*="card-header-"] .card-icon, .card [class*="card-header-"] .card-text	{
+		padding: 10px;
+	}
+	.card-stats .card-header.card-header-icon i {
+		font-size: 30px;
+		line-height: 40px;
+		width: 40px;
+		height: 40px;
+		text-align: center;		
+	}
+	.form-check, label {
+		font-size: 16px;
+		line-height: 1;
+		color: #333;
+	}	
+	.form-control {
+		font-size: 16px;
+	}
+	div.dataTables_wrapper div.dataTables_filter input	{
+		width: 80%;
+	}
+	.btn {
+		font-size: 16px;
+	}
+	.btn .material-icons, .btn:not(.btn-just-icon):not(.btn-fab) .fa{
+		font-size: 24px;
+	}
+	.dashboard-card-icon {
+		margin-bottom: 0px;
+	}	
+	.form-control::-moz-placeholder {
+		font-size: 16px;
+	}
+
+	.form-control:-ms-input-placeholder {
+		font-size: 16px;
+	}
+
+	.form-control::-webkit-input-placeholder {
+		font-size: 16px;
+	}	
+	.table.dataTable {
+		font-size: 16px;
+	}
+	.table thead tr th {
+		font-size: 16px;
+		vertical-align: top;
+	}
+	.dataTable>thead>tr>th, .dataTable>tbody>tr>th, .dataTable>tfoot>tr>th, .dataTable>thead>tr>td, .dataTable>tbody>tr>td, .dataTable>tfoot>tr>td {
+		padding: 7px 5px !important;	
+	}
+	div.dataTables_wrapper div.dataTables_info {
+		font-size: 16px;
+	}	
+	.material-datatables .dataTables_paginate .pagination .paginate_button .page-link {
+		font-size: 16px;
+	}
+
+		
+	
+	/* header.php Patiya 2563/11/02 */
+	.main-panel>.content {
+		padding: 20px 0px;
+	}	
+	.rps-h {
+		height:58px;
+	}	
+	/* end header.php Patiya 2563/11/02*/
+	
+	/* v_bps3.php Patiya 2563/11/02 */
+	
+	.rps-mt--30 {
+		margin-top: -20px !important;
+	}
+	.rps-f-12 {
+		font-size: 16px !important;
+		display: inline !important;
+	}
+	.dashboard-category-h4 {
+		float: right;
+		font-size: 26px !important;		
+	}	
+	.rps-card-icon {
+		padding: 5px;
+		margin-right: 0px;
+	}
+	.rps-mb-50 {
+		margin-bottom: 50px;
+	}
+	
+	.highcharts-root text {
+		font-size: 16px !important;
+	}
+	tspan {
+		font-size: 16px; 
+		font-weight: 500;
+	}
+	.rps-nav {
+		padding: 4px 0px;
+	}
+	.rps-link {
+		line-height: 10px;
+		font-size: 16px !important;		
+	}
+	
+	
+}
+@media screen and (min-width: 1367px) {
+
+	.rps-nav {
+		padding: 4px 0px;
+	}
+	.rps-link {
+		font-size: 17px !important;
+	}
+	.rps-item {
+		margin-left: 1px !important;
+	}
+}
+

@@ -1,0 +1,8 @@
+/* thai */
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Prompt'), local('Prompt-Regular'), url('Prompt.woff2') format('woff2');
+  /*unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;*/
+}

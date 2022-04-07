@@ -1,0 +1,2 @@
+<module type="content/edit" content_id="<?php echo e($content_id); ?>" content_type="product" />
+<?php /**PATH C:\laragon\www\microweber\src\MicroweberPackages\Product/resources/views/admin/product/edit.blade.php ENDPATH**/ ?>
